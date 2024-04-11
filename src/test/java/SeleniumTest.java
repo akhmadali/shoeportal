@@ -33,7 +33,7 @@ public class SeleniumTest {
         String expectedFirstCategory = "Formal Shoes";
 
         Assert.assertEquals(expectedFirstCategory, actualFirstCategory);
-
+        //comment
         driver.quit();
     }
 }
